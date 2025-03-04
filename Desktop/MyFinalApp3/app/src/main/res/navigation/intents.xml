@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/intents"
+    app:startDestination="@id/intents_fragment">
+
+    <fragment
+        android:id="@+id/intents_fragment"
+        android:name="com.example.myfinalapp.intents.IntentsFragment"
+        android:label="Intents" />
+</navigation>
